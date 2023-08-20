@@ -1,0 +1,7 @@
+// Create 
+router.post('/', authorsController.createAuthor);
+
+// Read
+router.get('/:id', authorsController.getAuthorById);
+
+// etc...
